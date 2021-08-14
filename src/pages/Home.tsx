@@ -13,14 +13,14 @@ export function Home() {
                 <p>Tire as dúvidas da sua audiência em tempo-real</p>
             </aside>
             <main>
-                <div>
+                <div className="main-content">
                     <img src={logoImg} alt="Letmeask" />
                     <button>
                         <img src={googleIconImg} alt="Logo do google" />
                         Crie sua sala com o google
                     </button>
                     
-                    <div>ou entre em uma sala</div>
+                    <div className="separator">ou entre em uma sala</div>
                     <form>
                         <input
                             type="text"
